@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
@@ -21,4 +22,9 @@
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+=======
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+>>>>>>> 35f08eff3d2c91024c3707fd280ae7f087963f84
 }

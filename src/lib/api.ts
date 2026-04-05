@@ -1,7 +1,6 @@
 // 🔁 IMPORTANT: Replace this with YOUR Render backend URL
-const BASE_URL = "https://subtrack-frontend-2h95.onrender.com"; 
-
-// ---------- TYPES ----------
+const BASE_URL = "https://subtrack-backend.onrender.com";//
+ ---------- TYPES ----------
 export type AuthResponse = {
   token: string;
   user: {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { FormEvent, ReactNode, useEffect, useMemo, useState } from 'react';
 import {
   AlertCircle,
@@ -479,3 +480,15 @@ function InputField({
     </label>
   );
 }
+=======
+import React from "react";
+
+export default function App() {
+  return (
+    <div style={{ padding: "20px" }}>
+      <h1>✅ Subtrack App Running Successfully</h1>
+      <p>If you see this, your Vercel deployment works 🎉</p>
+    </div>
+  );
+}
+>>>>>>> 35f08eff3d2c91024c3707fd280ae7f087963f84

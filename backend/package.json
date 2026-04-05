@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "backend",
   "version": "1.0.0",
@@ -13,4 +14,21 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.3"
   }
+=======
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Subtrack Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3"
+  }
+>>>>>>> 35f08eff3d2c91024c3707fd280ae7f087963f84
 }
