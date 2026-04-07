@@ -2,8 +2,8 @@ import { useState } from "react";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1>Hello App Working 🚀</h1>
+    <div>
+      <h1>Working 🚀</h1>
     </div>
   );
 }
