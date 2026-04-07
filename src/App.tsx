@@ -5,7 +5,7 @@ function App() {
   const [input, setInput] = useState("");
 
   const addSubscription = () => {
-    if (input.trim() === "") return;
+    if (!input.trim()) return;
     setSubscriptions([...subscriptions, input]);
     setInput("");
   };
@@ -22,15 +22,14 @@ function App() {
 
       <div className="flex gap-2 mb-6">
         <input
-          type="text"
-          placeholder="Enter subscription..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="border px-3 py-2 rounded-lg w-64"
+          placeholder="Enter subscription"
+          className="border px-3 py-2 rounded"
         />
         <button
           onClick={addSubscription}
-          className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+          className="bg-blue-500 text-white px-4 py-2 rounded"
         >
           Add
         </button>
@@ -40,9 +39,9 @@ function App() {
         {subscriptions.map((sub, index) => (
           <li
             key={index}
-            className="flex justify-between items-center bg-white shadow p-3 rounded-lg mb-2"
+            className="flex justify-between bg-white p-3 mb-2 rounded shadow"
           >
-            <span>{sub}</span>
+            {sub}
             <button
               onClick={() => removeSubscription(index)}
               className="text-red-500"
